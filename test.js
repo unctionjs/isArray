@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, no-undefined */
 import {test} from "tap"
 
-import isArray from "./source.js"
+import ifThenElse from "./source"
 
 test(({notOk, end}) => {
   notOk(isArray(null))
