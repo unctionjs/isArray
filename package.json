@@ -1,6 +1,6 @@
 {
   "name": "@unction/isarray",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "description": "Takes a value and returns a boolean if value is an array",
   "keywords": [
     "unction",
