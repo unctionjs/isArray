@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ValueType => boolean
+> A => boolean
 
 Takes any value and then any value and returns an array containing those values.
 
