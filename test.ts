@@ -1,30 +1,30 @@
 /* eslint-disable no-magic-numbers, no-undefined */
 import isArray from "./index";
 
-test(() => {
+test("works", () => {
   expect(isArray(null)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray(undefined)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray("b")).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray({})).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray([])).toBeTruthy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray(1)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isArray(new Buffer("x"))).toBeFalsy();
 });
