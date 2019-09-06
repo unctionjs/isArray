@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers, no-undefined */
-import isArray from "./index.ts";
+import isArray from "./index";
 
 test(() => {
   expect(isArray(null)).toBeFalsy();
